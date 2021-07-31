@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jee-uuid-servlet:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jee-uuid-servlet</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jee-uuid.war">
+      <element id="artifact" artifact-name="jee-uuid-servlet:war exploded" />
+    </root>
+  </artifact>
+</component>
